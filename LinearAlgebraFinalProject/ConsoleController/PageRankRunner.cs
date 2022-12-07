@@ -14,20 +14,45 @@ namespace ConsoleController
         {
             HashSet<Site> sites = new HashSet<Site>();
 
+            //flag for testing multiple lists
+            bool doPresetList = true;
+
             //create a web of sites with a specified number of sites and a specified number of links per site
             int numSites = 50;
             int numLinks = 3;
-            for (int i = 0; i < numSites; i++)
+            if (!doPresetList)
             {
-                List<Site> temp = new List<Site>();
-                for (int j = 0; i < numLinks; j++)
+                for (int i = 0; i < numSites; i++)
                 {
-                    temp.Add(new Site("A" + (i + j)));
+                    List<Site> temp = new List<Site>();
+                    for (int j = 0; i < numLinks; j++)
+                    {
+                        temp.Add(new Site("A" + (i + j)));
+                    }
+                    sites.Add(new Site("A" + i, temp));
                 }
-                sites.Add(new Site("A" + i, temp));
             }
 
-            Web web=new Web(sites);
+
+            if (doPresetList)
+            {
+                sites.Clear();
+                Site A=new Site("A");
+                Site B=new Site("B");
+                Site C=new Site("C");
+                Site D=new Site("D");
+                B.Links.Add(A);
+                B.Links.Add(C);
+                C.Links.Add(A);
+                D.Links.Add(A);
+                D.Links.Add(B);
+                D.Links.Add(C);
+                sites.Add(A);
+                sites.Add(B);
+                sites.Add(C);
+                sites.Add(D);
+            }
+            Web web =new Web(sites);
             
             //call the pagerank method to calculate the pagerank of each site.
             web.pageRank();

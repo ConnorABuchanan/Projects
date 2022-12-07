@@ -15,7 +15,9 @@ their own links and PageRank.
 ### The Algorithm
 I implemented the algorithm iteratively, using a series of loops to, <br/>
 First, I set all of the sites' page rank variables to 1 divided by the total
-number of sites in the web.<br/>
+number of sites in the web. Along with this, I had to check for any sites that
+had no links. in this case we treat them as though they have links to all sites in
+the web, so we add those links here.<br/>
 Next, check if the page ranks had yet converged, using a boolean flag. <br/>
 Next, loop through all of the sites held in the web, create a temporary variable,
 find the sites that link to the current site, and calculate how much of their page 
@@ -37,3 +39,10 @@ To do this we can perform the matrix multiplication, M\*x. The resulting vector
 will contain the updated PageRanks.
 
 ## Running The Testing Program
+You can run the Main method by setting the "ConsoleController" project as the
+startup project, building the project, and then running. As of now, it should
+create a web with around 50 sites that all link to each other, aside from the
+first ones. It just does this with a simple for loop. You can change both the
+total number of sites and the links per site by changing a variable (the names
+are self explanitory). If the boolean flag "doPresetWeb" is true, the program 
+will skip the loop and move on to a predetermined list.

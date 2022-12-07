@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Connor\\source\\repos\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj": {}
+    "C:\\Users\\Connor\\Source\\Repos\\Projects\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Connor\\source\\repos\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj": {
+    "C:\\Users\\Connor\\Source\\Repos\\Projects\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj",
+        "projectUniqueName": "C:\\Users\\Connor\\Source\\Repos\\Projects\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj",
         "projectName": "ConsoleController",
-        "projectPath": "C:\\Users\\Connor\\source\\repos\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj",
+        "projectPath": "C:\\Users\\Connor\\Source\\Repos\\Projects\\LinearAlgebraFinalProject\\ConsoleController\\ConsoleController.csproj",
         "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Connor\\source\\repos\\LinearAlgebraFinalProject\\ConsoleController\\obj\\",
+        "outputPath": "C:\\Users\\Connor\\Source\\Repos\\Projects\\LinearAlgebraFinalProject\\ConsoleController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

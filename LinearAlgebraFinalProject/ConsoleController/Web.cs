@@ -53,7 +53,7 @@ namespace WebUtilities
                 s.PageRank = (1.0 / sites.Count());
             }
 
-            //to deal with sites with no outgoing links (called sinks) we add a link from these sites to all other sites in the system. 
+            //to deal with sites with no outgoing links (called sinks) we treat these as though they have a link to all sites. add them 
             foreach (Site s in sites)
             {
                 if(s.Links.Count()==0)
