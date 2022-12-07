@@ -1,0 +1,15 @@
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.csproj.AssemblyReference.cache
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.AssemblyInfoInputs.cache
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.AssemblyInfo.cs
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.csproj.CoreCompileInputs.cache
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\bin\Debug\net6.0\ConsoleController.exe
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\bin\Debug\net6.0\ConsoleController.deps.json
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\bin\Debug\net6.0\ConsoleController.runtimeconfig.json
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\bin\Debug\net6.0\ConsoleController.dll
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\bin\Debug\net6.0\ConsoleController.pdb
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.dll
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\refint\ConsoleController.dll
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.pdb
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ConsoleController.genruntimeconfig.cache
+C:\Users\Connor\source\repos\LinearAlgebraFinalProject\ConsoleController\obj\Debug\net6.0\ref\ConsoleController.dll
