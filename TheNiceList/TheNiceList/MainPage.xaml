@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TheNiceList.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <HorizontalStackLayout
+                Spacing="25"
+                HorizontalOptions="Center"
+                >
+
+                <Label
+                    Text="Name: "
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="18"
+                    HorizontalOptions="Center"
+                    />
+
+                <Entry
+                    x:Name="name"
+                    Placeholder="St. Nick"
+                    />
+
+                <Button
+                    Text="Check It Twice!"
+                    TextColor="Red"
+                    BackgroundColor="Green"
+                    FontSize="18"
+                    HorizontalOptions="Center"
+                    Clicked="CheckButtonClickedHandler"
+                    />
+            </HorizontalStackLayout>
+
+            <Label
+                x:Name="output"
+                Text=""
+                TextColor="Green"
+                FontSize="48"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

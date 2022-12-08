@@ -1,0 +1,1 @@
+C:\Users\Connor\source\repos\Projects\TheNiceList\TheNiceList\TheNiceList.csproj;x64
