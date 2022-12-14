@@ -4,29 +4,35 @@
              x:Class="TheNiceList.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-
-            <HorizontalStackLayout
-                Spacing="25"
-                HorizontalOptions="Center"
+        
+        <Grid
+            RowDefinitions="50, 50, 150, *"
+            >
+            
+            <Grid
+                Grid.Row="1"
+                ColumnSpacing="10"
+                ColumnDefinitions="*,105,105,155,*"
                 >
-
+                
                 <Label
+                    Grid.Column="1"
                     Text="Name: "
                     SemanticProperties.HeadingLevel="Level2"
                     FontSize="18"
                     HorizontalOptions="Center"
+                    VerticalOptions="Center"
                     />
 
                 <Entry
+                    Grid.Column="2"
                     x:Name="name"
                     Placeholder="St. Nick"
+                    Completed="CheckButtonClickedHandler"
                     />
 
                 <Button
+                    Grid.Column="3"
                     Text="Check It Twice!"
                     TextColor="Red"
                     BackgroundColor="Green"
@@ -34,16 +40,19 @@
                     HorizontalOptions="Center"
                     Clicked="CheckButtonClickedHandler"
                     />
-            </HorizontalStackLayout>
+
+            </Grid>
 
             <Label
+                Grid.Row="3"
                 x:Name="output"
                 Text=""
                 TextColor="Green"
                 FontSize="48"
+                HorizontalOptions="Center"
                 />
 
-        </VerticalStackLayout>
+        </Grid>
     </ScrollView>
 
 </ContentPage>
