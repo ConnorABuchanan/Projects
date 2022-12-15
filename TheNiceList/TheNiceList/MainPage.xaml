@@ -1,8 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TheNiceList.MainPage">
+             x:Class="TheNiceList.MainPage"
+             >
 
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem
+                Text="Reset"
+                Clicked="ResetButtonClicked"
+                />
+
+        </MenuBarItem>
+        <MenuBarItem Text="Edit">
+            <MenuFlyoutItem
+                Text="Console"
+                Clicked="ConsoleButtonClicked"
+                />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+    
     <ScrollView>
         
         <Grid
