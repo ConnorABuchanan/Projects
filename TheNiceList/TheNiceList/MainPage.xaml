@@ -2,8 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TheNiceList.MainPage"
+             xmlns:TheNiceList="clr-namespace:TheNiceList"
              >
 
+    <ContentPage.Resources>
+        <TheNiceList:PresentPanel x:Key="drawable"
+                                  x:Name="PresentPanel"
+                                  />
+        
+    </ContentPage.Resources>
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="File">
             <MenuFlyoutItem
@@ -60,13 +67,13 @@
 
             </Grid>
 
-            <Label
+            <GraphicsView
                 Grid.Row="3"
+                Drawable="{StaticResource drawable}"
                 x:Name="output"
-                Text=""
-                TextColor="Green"
-                FontSize="48"
                 HorizontalOptions="Center"
+                HeightRequest="600"
+                WidthRequest="600"
                 />
 
         </Grid>

@@ -1,4 +1,7 @@
-﻿using System.Windows.Input;
+﻿using System.Reflection;
+using System.Windows.Input;
+using IImage = Microsoft.Maui.Graphics.IImage;
+using Microsoft.Maui.Graphics;
 
 namespace TheNiceList;
 
@@ -19,6 +22,7 @@ public partial class MainPage : ContentPage
         blacklist = new List<String>();
         theNiceList = new Dictionary<String, String>();
         fillWhitelist();
+        output.Invalidate();
 	}
 
     /// <summary>
@@ -36,7 +40,8 @@ public partial class MainPage : ContentPage
         }
 
         //calculate the naughtiness and place it in the output text label
-        output.Text = CalculateNaughtiness()+"!";
+        //output.Text = CalculateNaughtiness()+"!";
+        output.Invalidate();
     }
 
     /// <summary>
@@ -187,4 +192,6 @@ public partial class MainPage : ContentPage
     }
 
 }
+
+
 
